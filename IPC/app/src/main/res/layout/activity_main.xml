@@ -9,6 +9,11 @@
         android:onClick="bindService"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="绑定服务"/>
+        android:text="绑定Messenger服务"/>
+    <Button
+        android:onClick="bindAidlService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定aidl服务"/>
 
 </LinearLayout>

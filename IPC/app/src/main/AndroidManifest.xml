@@ -18,6 +18,8 @@
         </activity>
         <service android:name=".service.MessagerService"
                  android:process=":remote"/>
+        <service android:name=".service.AidlService"
+                 android:process=":huang"/>
     </application>
 
 </manifest>
